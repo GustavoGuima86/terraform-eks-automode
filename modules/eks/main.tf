@@ -7,6 +7,8 @@ module "eks" {
 
   endpoint_public_access = true
 
+  enable_irsa = true
+
   #Auto Mode
   compute_config = {
     enabled    = true
